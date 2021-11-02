@@ -1,12 +1,6 @@
 // :::::::::::::::::::::::::::::::::
 // :::::::::: Base styles ::::::::::
 // :::::::::::::::::::::::::::::::::
-
-
-
-// :::::::::::::::::::::::::::::::::
-// :::::::::: Bootstrap overides ::::::::::
-// :::::::::::::::::::::::::::::::::
 header {
     nav {
         height: 90px;
@@ -21,6 +15,20 @@ header {
     background-color: red;
     height: 100vh;
 }
+.content-section {
+    img {
+        width: 300px;
+        border-radius: 7px;
+    }
+    .type-section {
+        width: 300px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+a {
+    text-decoration: none;
+}
 
 // :::::::::::::::::::::::::::::::::
 // :::::::::: Color ::::::::::
@@ -33,7 +41,7 @@ $blink_deep-space-sparkle: #516969;
 $blink_quick-silver: #A2A2A2;
 $blink_onyx: #424242;
 $blink_jet: #2F2F2F;
-$blink_black: #000000;
+$blink_black: #070707;
 
 
 
