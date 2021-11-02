@@ -1,0 +1,38 @@
+header nav {
+  height: 90px;
+  padding: 0 1rem;
+}
+
+#hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/Blink_hero-image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Blink_hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#display-heading-mobile {
+  font-size: 2.6rem;
+  font-weight: 200;
+  color: #ffffff;
+  line-height: 3.6rem;
+}
+
+@media (min-width: 576px) {
+  #display-heading-mobile {
+    font-size: 3.25rem;
+    line-height: 4.25rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

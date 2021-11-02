@@ -1,0 +1,61 @@
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Base styles ::::::::::
+// :::::::::::::::::::::::::::::::::
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Bootstrap overides ::::::::::
+// :::::::::::::::::::::::::::::::::
+header {
+    nav {
+        height: 90px;
+        padding: 0 1rem;
+    }
+}
+#hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url(../img/Blink_hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    height: 100vh;
+}
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Color ::::::::::
+// :::::::::::::::::::::::::::::::::
+$blink_white: #ffffff;
+$blink_platinum: #E6E6E6;
+$blink_medium-aquamarine: #35DEA3;
+$blink_rich-black: #002f2f;
+$blink_deep-space-sparkle: #516969;
+$blink_quick-silver: #A2A2A2;
+$blink_onyx: #424242;
+$blink_jet: #2F2F2F;
+$blink_black: #000000;
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Typograhy ::::::::::
+// :::::::::::::::::::::::::::::::::
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#display-heading-mobile {
+    font-size: 2.6rem;
+    font-weight: 200;
+    color: $blink_white;
+    line-height: 3.6rem;
+    @media (min-width: 576px) {
+        font-size: 3.25rem;
+        line-height: 4.25rem;
+    }
+}
