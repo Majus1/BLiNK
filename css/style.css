@@ -1,33 +1,3 @@
-header nav {
-  height: 90px;
-  padding: 0 1rem;
-}
-
-#hero-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/Blink_hero-image.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Blink_hero-image.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: red;
-  height: 100vh;
-}
-
-.content-section img {
-  width: 300px;
-  border-radius: 7px;
-}
-
-.content-section .type-section {
-  width: 300px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-a {
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -49,5 +19,36 @@ h6 {
     font-size: 3.25rem;
     line-height: 4.25rem;
   }
+}
+
+header nav {
+  height: 90px;
+  padding: 0 1rem;
+}
+
+#hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/Blink_hero-image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Blink_hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mg-color-band {
+  background-color: #516969;
+}
+
+.mg-color-band h3 {
+  color: #ffffff;
+}
+
+.mg-color-band p {
+  color: #E6E6E6;
 }
 /*# sourceMappingURL=style.css.map */

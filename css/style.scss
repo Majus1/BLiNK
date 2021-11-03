@@ -1,36 +1,4 @@
 // :::::::::::::::::::::::::::::::::
-// :::::::::: Base styles ::::::::::
-// :::::::::::::::::::::::::::::::::
-header {
-    nav {
-        height: 90px;
-        padding: 0 1rem;
-    }
-}
-#hero-section {
-    background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url(../img/Blink_hero-image.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: red;
-    height: 100vh;
-}
-.content-section {
-    img {
-        width: 300px;
-        border-radius: 7px;
-    }
-    .type-section {
-        width: 300px;
-        margin: 0 auto;
-        text-align: left;
-    }
-}
-a {
-    text-decoration: none;
-}
-
-// :::::::::::::::::::::::::::::::::
 // :::::::::: Color ::::::::::
 // :::::::::::::::::::::::::::::::::
 $blink_white: #ffffff;
@@ -65,5 +33,35 @@ h6 {
     @media (min-width: 576px) {
         font-size: 3.25rem;
         line-height: 4.25rem;
+    }
+}
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Base styles ::::::::::
+// :::::::::::::::::::::::::::::::::
+header {
+    nav {
+        height: 90px;
+        padding: 0 1rem;
+    }
+}
+#hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url(../img/Blink_hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.mg-color-band {
+    background-color: $blink_deep-space-sparkle;
+    h3 {
+        color: $blink_white;
+    }
+    p {
+        color: $blink_platinum;
     }
 }
