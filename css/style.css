@@ -51,4 +51,8 @@ a {
 .mg-color-band p {
   color: #E6E6E6;
 }
+
+.mg-container {
+  max-width: 540px;
+}
 /*# sourceMappingURL=style.css.map */
