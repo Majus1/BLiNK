@@ -48,7 +48,7 @@ a {
   color: #ffffff;
 }
 
-.mg-color-band p {
+.mg-color-band p, .mg-color-band ul, .mg-color-band ol {
   color: #E6E6E6;
 }
 
