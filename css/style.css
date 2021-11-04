@@ -52,6 +52,17 @@ a {
   color: #E6E6E6;
 }
 
+.mg-content-band {
+  color: #ffffff;
+  background-color: #002f2f;
+}
+
+.mg-content-band span {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .mg-container {
   max-width: 540px;
 }
