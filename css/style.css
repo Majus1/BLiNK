@@ -66,4 +66,24 @@ a {
 .mg-container {
   max-width: 540px;
 }
+
+.mg-color-card {
+  background-color: #516969;
+  max-width: 725px;
+}
+
+.mg-color-card h5 {
+  color: #ffffff;
+}
+
+.mg-color-card p {
+  color: #E6E6E6;
+}
+
+.mg-color-card .mg-indication-number {
+  color: #35DEA3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */

@@ -79,3 +79,20 @@ a {
 .mg-container {
     max-width: 540px;
 }
+
+.mg-color-card {
+    background-color: $blink_deep-space-sparkle;
+    max-width: 725px;
+    h5 {
+        color: $blink_white;
+    }
+    p {
+        color: $blink_platinum;
+    }
+    .mg-indication-number {
+        color: $blink_medium-aquamarine;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
