@@ -82,7 +82,7 @@ a {
 
 .mg-color-card {
     background-color: $blink_deep-space-sparkle;
-    max-width: 725px;
+    max-width: 650px;
     h5 {
         color: $blink_white;
     }
@@ -94,5 +94,8 @@ a {
         font-family: 'Poppins', sans-serif;
         font-size: 2.5rem;
         font-weight: 700;
+        @media (min-width: 768px) {
+            font-size: 9.375rem;
+        }
     }
 }

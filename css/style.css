@@ -69,7 +69,7 @@ a {
 
 .mg-color-card {
   background-color: #516969;
-  max-width: 725px;
+  max-width: 650px;
 }
 
 .mg-color-card h5 {
@@ -85,5 +85,11 @@ a {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .mg-color-card .mg-indication-number {
+    font-size: 9.375rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
