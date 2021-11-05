@@ -99,3 +99,35 @@ a {
         }
     }
 }
+.mg-color-card-2 {
+    background-color: $blink_platinum;
+    max-width: 650px;
+    h5 {
+        color: $blink_jet;
+    }
+    p {
+        color: $blink_onyx;
+    }
+    .mg-indication-number {
+        color: $blink_medium-aquamarine;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        @media (min-width: 768px) {
+            font-size: 9.375rem;
+        }
+    }
+}
+.mg-simple-card-type-section {
+    background-color: $blink_deep-space-sparkle;
+    span,
+    h3 {
+        color: $blink_white;
+    }
+    p {
+        color: $blink_platinum;
+    }  
+}
+.mg-background-secondary-color {
+    background-color: $blink_deep-space-sparkle;
+}

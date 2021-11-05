@@ -92,4 +92,47 @@ a {
     font-size: 9.375rem;
   }
 }
+
+.mg-color-card-2 {
+  background-color: #E6E6E6;
+  max-width: 650px;
+}
+
+.mg-color-card-2 h5 {
+  color: #2F2F2F;
+}
+
+.mg-color-card-2 p {
+  color: #424242;
+}
+
+.mg-color-card-2 .mg-indication-number {
+  color: #35DEA3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .mg-color-card-2 .mg-indication-number {
+    font-size: 9.375rem;
+  }
+}
+
+.mg-simple-card-type-section {
+  background-color: #516969;
+}
+
+.mg-simple-card-type-section span,
+.mg-simple-card-type-section h3 {
+  color: #ffffff;
+}
+
+.mg-simple-card-type-section p {
+  color: #E6E6E6;
+}
+
+.mg-background-secondary-color {
+  background-color: #516969;
+}
 /*# sourceMappingURL=style.css.map */
