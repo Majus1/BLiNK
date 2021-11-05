@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+* {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -134,5 +129,13 @@ a {
 
 .mg-background-secondary-color {
   background-color: #516969;
+}
+
+#mg-contact-form-1 {
+  max-width: 650px;
+}
+
+#mg-contact-form-section-1 p {
+  max-width: 650px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,12 +16,7 @@ $blink_black: #070707;
 // :::::::::::::::::::::::::::::::::
 // :::::::::: Typograhy ::::::::::
 // :::::::::::::::::::::::::::::::::
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+* {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -130,4 +125,12 @@ a {
 }
 .mg-background-secondary-color {
     background-color: $blink_deep-space-sparkle;
+}
+#mg-contact-form-1 {
+    max-width: 650px;
+}
+#mg-contact-form-section-1 {
+    p {
+        max-width: 650px;
+    }
 }
