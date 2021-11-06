@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -272,7 +272,7 @@
         </div>
 
         <!-- Fifth card -->
-        <div class="mg-card-secondary-color card border-0 mt-2 mb-5">
+        <div class="mg-card-secondary-color card border-0 mt-2">
           <div class="mg-color-card-2 d-flex flex-column flex-md-row card-body rounded-3 mx-auto align-items-start align-items-md-center">
             <span class="mg-indication-number">05</span>
             <div class="ps-md-4">
@@ -281,14 +281,18 @@
             </div>
           </div>
         </div>
+
+        <div class="mg-price-starting-point alert" role="alert">
+          <span class="pb-3 pt-4">ZČETNA CENA OKOLI 2000€</span>
+        </div>
       </div>
 
       <!-- Contact form -->
       <div class="col d-flex flex-column mt-5 m-0 p-0 align-items-center" id="mg-contact-form-section-1">
         <h3 class="pb-2">Kako začeti?</h3>
         <img class="p-2" src="img/BLiNK_Logo-piktogram.svg" alt="Blink logo svg">
-        <p class=" text-start pt-2 pb-4">Ponujam samcat paket ki vklučuje vse kar potrebujete če iščete novo spletno stran, ki vam pomaga pridobiti več potencialnih strank.</p>
-        <p class=" text-start pb-4">V 2 delovnih dneh se bom pojavil v vašem epoštnem predalu z vsemi informacijami katere potrebujete za sprejem prave odločitve.</p>
+        <p class=" text-start pt-2 pb-4 px-2">Ponujam samcat paket ki vklučuje vse kar potrebujete če iščete novo spletno stran, ki vam pomaga pridobiti več potencialnih strank.</p>
+        <p class=" text-start pb-4 px-2">V 2 delovnih dneh se bom pojavil v vašem epoštnem predalu z vsemi informacijami katere potrebujete za sprejem prave odločitve.</p>
         <form class="row g-3 mx-auto" id="mg-contact-form-1">
           <div class="col-md-6">
             <label for="inpuName" class="form-label">Ime</label>
@@ -306,9 +310,9 @@
             <label for="inpuWebAddress" class="form-label">URL vaše spletne strani</label>
             <input type="email" class="form-control" id="WebAddress">
           </div>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
+          <div class="col-12">
+            <label for="floatingTextarea" class="form-label">Povej mi o svojem podjetjiu in pri čem iščete pomoč</label>
+            <textarea class="form-control" id="floatingTextarea"></textarea>
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-primary">Pošlji zdaj</button>

@@ -134,3 +134,18 @@ a {
         max-width: 650px;
     }
 }
+.mg-price-starting-point  {
+    background-color: $blink_rich-black;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin: 16px auto 48px;
+    span {
+        color: $blink_white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+}
