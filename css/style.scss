@@ -149,3 +149,27 @@ a {
         margin: 0;
     }
 }
+
+.mg-accordion-row {
+    background-color: $blink_deep-space-sparkle;
+    .mg-accordion {
+        background-color: $blink_deep-space-sparkle;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .mg-accordion-item {
+        background-color: $blink_platinum;
+        border: none;
+        border-radius: 8px;
+    }
+    .mg-accordion-header {
+        border-radius: 8px;
+        padding: 1rem 0;
+    }
+    .mg-accordion-button {
+        background-color: $blink_platinum;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+    }
+}
