@@ -227,4 +227,18 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+.mg-nav-scrolled {
+  background-color: #002f2f !important;
+}
+
+.mg-fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 250ms ease-in;
+  transition: opacity 250ms ease-in;
+}
+
+.mg-fade-in.appear {
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */

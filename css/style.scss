@@ -201,13 +201,32 @@ a {
     }
 }
 
+// :::::::::::::::::::::::::::::::::
+// :::::::::: HEADER :::::::::::::::
+// :::::::::::::::::::::::::::::::::
 
 // ::::::::::::::::::::::::::::::
 // Header disappear on scroll
 // ::::::::::::::::::::::::::::::
-.scrolled-down{
+.scrolled-down {
     transform:translateY(-100%); transition: all 0.3s ease-in-out;
   }
-  .scrolled-up{
+  .scrolled-up {
     transform:translateY(0); transition: all 0.3s ease-in-out;
   }
+
+.mg-nav-scrolled {
+    background-color: $blink_rich-black !important;
+}
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: ANIMATIONS :::::::::::
+// :::::::::::::::::::::::::::::::::
+.mg-fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.mg-fade-in.appear {
+    opacity: 1;
+}
