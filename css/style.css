@@ -131,6 +131,7 @@ a {
 
 .mg-simple-card-type-section p {
   color: #E6E6E6;
+  max-width: 650px;
 }
 
 .mg-background-secondary-color {
@@ -151,6 +152,7 @@ a {
   max-width: 500px;
   text-align: center;
   margin: 16px auto 48px;
+  border: none;
 }
 
 .mg-price-starting-point span {
