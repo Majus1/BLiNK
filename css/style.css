@@ -251,8 +251,19 @@ a {
   text-decoration: line-through;
 }
 
-#mg-project-grid .my-grid-item {
+.grid {
+  max-width: 100%;
   background-color: #35DEA3;
+}
+
+.grid-item {
+  width: 200px;
+  background-color: blue;
+}
+
+.grid-item--width2 {
+  width: 400px;
+  background-color: red;
 }
 
 .mg-fade-in {
