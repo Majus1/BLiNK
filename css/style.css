@@ -251,19 +251,26 @@ a {
   text-decoration: line-through;
 }
 
-.grid {
-  max-width: 100%;
-  background-color: #35DEA3;
+.mg-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 16px;
+  margin-bottom: 56px;
 }
 
-.grid-item {
-  width: 200px;
-  background-color: blue;
+.mg-grid .mg-grid-item img {
+  width: 100%;
+  border-radius: 0.3rem;
 }
 
-.grid-item--width2 {
-  width: 400px;
-  background-color: red;
+@media (min-width: 576px) {
+  .mg-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .mg-fade-in {
