@@ -251,6 +251,10 @@ a {
   text-decoration: line-through;
 }
 
+#mg-project-grid .my-grid-item {
+  background-color: #35DEA3;
+}
+
 .mg-fade-in {
   opacity: 0;
   -webkit-transition: opacity 250ms ease-in;
