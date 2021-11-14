@@ -229,8 +229,9 @@ a {
     hr {
         border: 1px solid black;
         opacity: 1;
-        width: 90%;
+        width: 95%;
         padding: 0;
+        max-width: 1400px;
     }
     .toggled-category {
         color: $blink_quick-silver;
@@ -241,23 +242,41 @@ a {
 // :::::::::::::::::::::::::::::::::
 // :::::::::: PROJECT GRID :::::::::
 // :::::::::::::::::::::::::::::::::
-.mg-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 16px;
-    margin-bottom: 56px;
-    .mg-grid-item {
-        img {
-            width: 100%;
-            border-radius: 0.3rem;
-        }
+// .mg-grid {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     gap: 16px;
+//     padding: 16px;
+//     margin-bottom: 56px;
+//     .mg-grid-item {
+//         img {
+//             width: 100%;
+//             border-radius: 0.3rem;
+//         }
+//     }
+//     @media (min-width: 576px) {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+
+.mg-grid-container {
+    column-count: 3;
+    column-gap: 16px;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.mg-grid-item {
+    background-color: cornflowerblue;
+    img {
+        position: relative;
+        width: 100%;
     }
-    @media (min-width: 576px) {
-        grid-template-columns: repeat(2, 1fr);
+    img:hover {
+        transition: border 0.25s;
+        border: 2px solid red;
     }
 }
-
 
 
 
