@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 });
 // Header disappear-up  on scroll
 
+
 // Header changes colorswhen scroled of hero section
 const header = document.querySelector(".mg-header-content");
 const sectionOne = document.querySelector("#hero-section");
@@ -53,6 +54,7 @@ const sectionOneObserver = new IntersectionObserver(function(
 sectionOneObserver.observe(sectionOne);
 // Header changes colorswhen scroled of hero section
 
+
 // Makes elements appear from nothing
 const faders = document.querySelectorAll(".mg-fade-in") // Dodali smo .mg-fade-in vsaki sekciji ki jo želimo počasi fadati-in
 
@@ -78,5 +80,4 @@ const appearOnScroll = new IntersectionObserver
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
 })
-
 // Makes elements appear from nothing
