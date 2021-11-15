@@ -262,20 +262,46 @@ a {
 .mg-grid-container {
     column-count: 3;
     column-gap: 16px;
+    position: relative;
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
 }
 .mg-grid-item {
-    background-color: cornflowerblue;
+    display: block;
     img {
         position: relative;
         width: 100%;
     }
-    img:hover {
-        transition: border 0.25s;
-        border: 2px solid red;
+    .mg-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.35s ease;
+        background-color: rgba(0, 0, 0, .6);
+        .mg-overlay-type-section {
+            position: absolute;
+            color: $blink_white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            h5 {
+                text-transform: uppercase;
+                color: $blink_white;
+            }
+        }
     }
+}
+
+.mg-grid-item:hover .mg-overlay {
+    // On .mg-grid-hover effect mg-overlay
+    opacity: 1;
 }
 
 
