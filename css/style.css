@@ -253,14 +253,28 @@ a {
 }
 
 .mg-grid-container {
-  -webkit-column-count: 3;
-          column-count: 3;
+  -webkit-column-count: 1;
+          column-count: 1;
   -webkit-column-gap: 16px;
           column-gap: 16px;
   position: relative;
   width: 95%;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .mg-grid-container {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .mg-grid-container {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
 }
 
 .mg-grid-item {

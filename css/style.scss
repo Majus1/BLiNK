@@ -242,30 +242,19 @@ a {
 // :::::::::::::::::::::::::::::::::
 // :::::::::: PROJECT GRID :::::::::
 // :::::::::::::::::::::::::::::::::
-// .mg-grid {
-//     display: grid;
-//     grid-template-columns: 1fr;
-//     gap: 16px;
-//     padding: 16px;
-//     margin-bottom: 56px;
-//     .mg-grid-item {
-//         img {
-//             width: 100%;
-//             border-radius: 0.3rem;
-//         }
-//     }
-//     @media (min-width: 576px) {
-//         grid-template-columns: repeat(2, 1fr);
-//     }
-// }
-
 .mg-grid-container {
-    column-count: 3;
+    column-count: 1;
     column-gap: 16px;
     position: relative;
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
+    @media (min-width: 576px) {
+        column-count: 2;
+    }
+    @media (min-width: 992px) {
+        column-count: 3;
+    }
 }
 .mg-grid-item {
     display: block;
