@@ -280,7 +280,7 @@ a {
 }
 
 .mg-grid-item {
-  display: block;
+  display: inline-block;
 }
 
 .mg-grid-item img {
@@ -319,6 +319,10 @@ a {
 
 .mg-grid-item:hover .mg-overlay {
   opacity: 1;
+}
+
+#mg-hider {
+  display: none;
 }
 
 .mg-fade-in {

@@ -258,7 +258,8 @@ a {
     }
 }
 .mg-grid-item {
-    display: block;
+    display: inline-block;
+    
     img {
         position: relative;
         width: 100%;
@@ -292,6 +293,11 @@ a {
 .mg-grid-item:hover .mg-overlay {
     // On .mg-grid-hover effect mg-overlay
     opacity: 1;
+}
+
+#mg-hider {
+    // Simply hides elements
+    display: none;
 }
 
 
