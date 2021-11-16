@@ -236,6 +236,7 @@ a {
     .toggled-category {
         color: $blink_quick-silver;
         text-decoration: line-through;
+        transition: 0.25s ease;
     }
 }
 

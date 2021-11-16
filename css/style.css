@@ -250,6 +250,8 @@ a {
 #previous-work .toggled-category {
   color: #A2A2A2;
   text-decoration: line-through;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
 }
 
 .mg-grid-container {
