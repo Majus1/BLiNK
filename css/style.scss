@@ -50,12 +50,6 @@ body::-webkit-scrollbar {
 // :::::::::::::::::::::::::::::::::
 // :::::::::: Base styles ::::::::::
 // :::::::::::::::::::::::::::::::::
-header {
-    nav {
-        height: 90px;
-        padding: 0 1rem;
-    }
-}
 #hero-section {
     background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url(../img/Blink_hero-image.jpg);
     background-position: center;
@@ -209,6 +203,7 @@ a {
 .mg-content-container {
     max-width: 1400px;
 }
+
 .mg-nav-container {
     flex-grow: 0;
 }
@@ -228,11 +223,6 @@ a {
 .mg-nav-scrolled {
     background-color: $blink_rich-black !important;
 }
-
-// .show {
-//     background-color: black;
-//     width: 100%;
-// }
 
 // :::::::::::::::::::::::::::::::::
 // :::::::::: HERO :::::::::::::::::

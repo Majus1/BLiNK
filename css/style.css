@@ -34,11 +34,6 @@ body::-webkit-scrollbar {
   }
 }
 
-header nav {
-  height: 90px;
-  padding: 0 1rem;
-}
-
 #hero-section {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/Blink_hero-image.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Blink_hero-image.jpg);
