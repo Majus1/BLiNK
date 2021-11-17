@@ -217,6 +217,16 @@ a {
   color: #ffffff;
 }
 
+.mg-content-container {
+  max-width: 1400px;
+}
+
+.mg-nav-container {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
 .scrolled-down {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -232,11 +242,12 @@ a {
 }
 
 .mg-nav-scrolled {
+  min-height: 90px;
   background-color: #002f2f !important;
 }
 
 #previous-work {
-  margin: 15vh 0 0 0;
+  margin: 20vh 0 0 0;
 }
 
 #previous-work hr {
@@ -250,8 +261,8 @@ a {
 #previous-work .toggled-category {
   color: #A2A2A2;
   text-decoration: line-through;
-  -webkit-transition: 0.25s ease;
-  transition: 0.25s ease;
+  -webkit-transition: 0.65s ease;
+  transition: 0.65s ease;
 }
 
 .mg-grid-container {
@@ -323,6 +334,13 @@ a {
 
 #mg-hider {
   display: none;
+}
+
+#all-categories,
+#web-dev-category,
+#ui-ux-category,
+#branding-category {
+  cursor: pointer;
 }
 
 .mg-fade-in {

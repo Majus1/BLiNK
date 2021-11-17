@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
 // Header changes colorswhen scroled of hero section
 const header = document.querySelector(".mg-header-content");
-const sectionOne = document.querySelector("#hero-section");
+const sectionOne = document.querySelector(".mg-header-switch");
 
 const sectionOneOptions = {
     rootMargin: "-200px 0px 0px 0px"

@@ -206,7 +206,12 @@ a {
 // :::::::::::::::::::::::::::::::::
 // :::::::::: HEADER :::::::::::::::
 // :::::::::::::::::::::::::::::::::
-
+.mg-content-container {
+    max-width: 1400px;
+}
+.mg-nav-container {
+    flex-grow: 0;
+}
 // ::::::::::::::::::::::::::::::
 // Header disappear on scroll
 // ::::::::::::::::::::::::::::::
@@ -218,14 +223,20 @@ a {
   }
 
 .mg-nav-scrolled {
+    min-height: 90px;
     background-color: $blink_rich-black !important;
 }
+
+// .show {
+//     background-color: black;
+//     width: 100%;
+// }
 
 // :::::::::::::::::::::::::::::::::
 // :::::::::: HERO :::::::::::::::::
 // :::::::::::::::::::::::::::::::::
 #previous-work {
-    margin: 15vh 0 0 0;
+    margin: 20vh 0 0 0;
     hr {
         border: 1px solid black;
         opacity: 1;
@@ -236,7 +247,7 @@ a {
     .toggled-category {
         color: $blink_quick-silver;
         text-decoration: line-through;
-        transition: 0.25s ease;
+        transition: 0.65s ease;
     }
 }
 
@@ -300,6 +311,12 @@ a {
     display: none;
 }
 
+#all-categories,
+#web-dev-category,
+#ui-ux-category,
+#branding-category {
+    cursor: pointer;
+}
 
 
 // :::::::::::::::::::::::::::::::::

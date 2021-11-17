@@ -131,10 +131,3 @@ projectGridNav.addEventListener("click", (event)=> {
 
 })
 // Search query
-
-
-// • Creates an array for every category of portfolio post
-// • Store them in an array
-// • Add the possibility of adding and removing classes to specific item in array
-// • Add a point clickable cursor to the h5 in category switcher
-
