@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
 
 // Header changes colorswhen scroled of hero section
-const header = document.querySelector(".mg-header-content");
+const header = document.querySelector(".mg-nav");
 const sectionOne = document.querySelector(".mg-header-switch");
 
 const sectionOneOptions = {

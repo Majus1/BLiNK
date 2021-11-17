@@ -241,8 +241,11 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.mg-nav-scrolled {
+.mg-nav {
   min-height: 90px;
+}
+
+.mg-nav-scrolled {
   background-color: #002f2f !important;
 }
 
