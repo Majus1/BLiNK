@@ -248,6 +248,10 @@ a {
   margin: 20vh 0 0 0;
 }
 
+#previous-work h5 {
+  color: #A2A2A2;
+}
+
 #previous-work hr {
   border: 1px solid black;
   opacity: 1;
@@ -257,8 +261,8 @@ a {
 }
 
 #previous-work .toggled-category {
-  color: #A2A2A2;
-  text-decoration: line-through;
+  color: #070707;
+  text-decoration: none;
   -webkit-transition: 0.65s ease;
   transition: 0.65s ease;
 }

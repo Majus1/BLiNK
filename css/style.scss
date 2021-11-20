@@ -229,6 +229,9 @@ a {
 // :::::::::::::::::::::::::::::::::
 #previous-work {
     margin: 20vh 0 0 0;
+    h5 {
+        color: $blink_quick-silver;
+    }
     hr {
         border: 1px solid black;
         opacity: 1;
@@ -237,8 +240,8 @@ a {
         max-width: 1400px;
     }
     .toggled-category {
-        color: $blink_quick-silver;
-        text-decoration: line-through;
+        color: $blink_black;
+        text-decoration: none;
         transition: 0.65s ease;
     }
 }
