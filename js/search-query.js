@@ -55,7 +55,7 @@ function showAllUiUxProjects() {
     })
 }
 
-function showAllbrandingProjects() {
+function showAllBrandingProjects() {
     // Function hides all WEB DEv and UI / UX project and shows only branding projects
 
     // Hides all Web Dev projects
@@ -112,7 +112,7 @@ projectGridNav.addEventListener("click", (event)=> {
         event.target.classList.add("toggled-category")
         console.log("Pritisnil si gumb za web dev");
         // Function hides all WEB DEv and UI / UX project and shows only branding projects
-        showAllbrandingProjects()
+        showAllWebDevProjects()
     }
     else if (event.target.id === "ui-ux-category") {
         removeToggledCategor()
@@ -126,7 +126,7 @@ projectGridNav.addEventListener("click", (event)=> {
         event.target.classList.add("toggled-category")
         console.log("Pritisnil si gumb za branding");
         // Function hides all UI/UX and branding project and shows only Web Dev projects
-        showAllWebDevProjects()
+        showAllBrandingProjects()
     }
 
 })

@@ -345,6 +345,10 @@ a {
   cursor: pointer;
 }
 
+#single-project {
+  padding-top: 90px;
+}
+
 .mg-fade-in {
   opacity: 0;
   -webkit-transition: opacity 250ms ease-in;
