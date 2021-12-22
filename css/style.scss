@@ -47,6 +47,36 @@ body::-webkit-scrollbar {
     }
 }
 
+.thank-you-display {
+    font-family: 'Anton', sans-serif;
+    font-size: var(--tyd-xl);
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+.thank-you-lead {
+    font-weight: 800;
+    letter-spacing: var(--tyl-spacing);
+    font-size: var(--tyl-xl);
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+:root {
+    // test kako zapisati responsive type
+    --tyl-xl: 1.5rem;
+    --tyl-spacing: none;
+    --tyd-xl: clamp(8rem, 20vw + 2rem, 35rem);
+    @media (min-width: 992px) {
+        --tyl-spacing: auto;
+    }
+    @media (min-width: 1200px) {
+        --tyl-spacing: 1.5rem;
+    }
+}
+
 
 
 // :::::::::::::::::::::::::::::::::

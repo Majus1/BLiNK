@@ -34,6 +34,41 @@ body::-webkit-scrollbar {
   }
 }
 
+.thank-you-display {
+  font-family: 'Anton', sans-serif;
+  font-size: var(--tyd-xl);
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+}
+
+.thank-you-lead {
+  font-weight: 800;
+  letter-spacing: var(--tyl-spacing);
+  font-size: var(--tyl-xl);
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+}
+
+:root {
+  --tyl-xl: 1.5rem;
+  --tyl-spacing: none;
+  --tyd-xl: clamp(8rem, 20vw + 2rem, 35rem);
+}
+
+@media (min-width: 992px) {
+  :root {
+    --tyl-spacing: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --tyl-spacing: 1.5rem;
+  }
+}
+
 #hero-section {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg);
