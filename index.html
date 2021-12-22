@@ -302,15 +302,15 @@
       <form class="row g-3 mx-auto" id="mg-contact-form-1" action="https://formsubmit.co/maj.gajsek@gmail.com" method="POST">
         <div class="col-md-6">
           <label for="inpuName" class="form-label">Ime</label>
-          <input type="text" class="form-control" id="inpuName" name="ime">
+          <input type="text" class="form-control" id="inpuName" name="ime" required>
         </div>
         <div class="col-md-6">
           <label for="inputSurneme" class="form-label">Priimek</label>
-          <input type="text" class="form-control" id="inputSurneme" name="priimek">
+          <input type="text" class="form-control" id="inputSurneme" name="priimek" required>
         </div>
         <div class="col-12">
           <label for="inputEmail" class="form-label">E-naslov</label>
-          <input type="email" class="form-control" id="inputEmail" name="email">
+          <input type="email" class="form-control" id="inputEmail" name="email" required>
         </div>
         <div class="col-12">
           <label for="inpuWebAddress" class="form-label">URL vaše spletne strani</label>
@@ -323,6 +323,7 @@
         <div class="col-12 pb-3">
           <button type="submit" class="btn btn-primary">Pošlji zdaj</button>
         </div>
+        <input type="hidden" name="_next" value="pretekla-dela.html">
       </form>
     </div>
 
