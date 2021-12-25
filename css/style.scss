@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
     font-size: var(--tyd-xl);
     text-align: center;
     text-transform: uppercase;
-    color: red;
+    color: $blink_rich-black;
 }
 
 .thank-you-lead {
@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
     font-size: var(--tyl-xl);
     text-align: center;
     text-transform: uppercase;
-    color: red;
+    color: $blink_rich-black;
 }
 
 :root {
@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: white;
     height: 100vh;
     h1 {
         color: $blink_white;
@@ -372,4 +372,17 @@ a {
 
 .mg-fade-in.appear {
     opacity: 1;
+}
+
+// :::::::::::::::::::::::::::::::::
+// ::::::: THANK YOU BIG BOLD:::::::
+// :::::::::::::::::::::::::::::::::
+#big-bold__container {
+    margin-top: 30vh;
+    @media (min-width: 992px) {
+        margin-top: 25vh;
+    }
+    @media (min-width: 1200px) {
+        margin-top: 15vh;
+    }
 }

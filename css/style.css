@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
   font-size: var(--tyd-xl);
   text-align: center;
   text-transform: uppercase;
-  color: red;
+  color: #002f2f;
 }
 
 .thank-you-lead {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
   font-size: var(--tyl-xl);
   text-align: center;
   text-transform: uppercase;
-  color: red;
+  color: #002f2f;
 }
 
 :root {
@@ -75,7 +75,7 @@ body::-webkit-scrollbar {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: red;
+  background-color: white;
   height: 100vh;
 }
 
@@ -393,5 +393,21 @@ a {
 
 .mg-fade-in.appear {
   opacity: 1;
+}
+
+#big-bold__container {
+  margin-top: 30vh;
+}
+
+@media (min-width: 992px) {
+  #big-bold__container {
+    margin-top: 25vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #big-bold__container {
+    margin-top: 15vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
